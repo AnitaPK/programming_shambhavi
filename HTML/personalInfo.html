@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Info</title>
+    <style>
+        :root{
+
+        }
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: pink;
+        }
+        .personal-container {
+            color: blueviolet;
+            font-size: Large;
+        }
+
+        .p_info {
+            color: #ffa500;
+            font-size: 2rem;
+        }
+
+        .c_info {
+            color: #ff0000;
+            font-size: medium;
+            font-style: italic;
+        }
+
+        .userOne {
+            width: 90%;
+            height: auto;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .headerSection{
+            width: 100%;
+        }
+        .headerInfoSection{
+            width: 50%;
+            /* display: inline-block; */
+            float: left;
+        }
+        .headerImageSection{
+            width: 50%;
+            /* display: inline-block; */
+            float: left;
+        }
+        @media screen and (max-width:768px){
+            body{
+                background-color: chartreuse;
+            }
+            .headerInfoSection{
+                width: 100%;
+            }
+            .headerImageSection{
+                width: 100%;
+            }
+            .p_info {
+                font-size: 1rem;
+            }
+            .userOne{
+                border: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headerSection">
+    <div class="headerInfoSection">
+        <div class="personal-container">
+            <h1><b class="p_info"> SHAMBHAVI JAWALKOTI</b></h1>
+            <h2><i class="c_info"> NKOCEt</i></h2>
+        </div>
+
+        <section id="pinfoId" class="">
+            <h1>Pursuing AI engineering</h1>
+            <p>Major part of todays world is AI </p>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste harum ratione vel nihil quidem rem dolor
+                expedita temporibus tempore laborum.</div>
+        </section>
+    </div>
+    <div class="headerImageSection">
+        <img src="./assets/user.jpg" alt="user image" class="userOne" />
+    </div>
+    </div>
+</body>
+
+</html>

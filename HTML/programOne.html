@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" href="./assets/naturalLOGO.jpg" />
+    <style>
+        .logoImage{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 1px solid black;
+            padding: 5px;
+            outline: 5px solid green;
+        }
+        .BoxSizzing{
+            width: 300px;
+            height: 300px;
+            background-color: pink;
+            border: 5px solid black;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .imageBoxSizzing{
+            width:300px;
+            height: 300px;
+        }
+        a:link{
+            background-color: orange;
+        }
+        a:hover{
+            background-color: pink;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        a:active{
+            background-color: blue;
+        }
+        a:visited{
+            background-color: orange;
+
+        }
+    </style>
 </head>
 <body>
+
+    <a href="http://google.com" target="" class="" >Google</a>
+    <a href="https://naturalicecreams.in/" target="" class="" >Natural Icecream</a>
+    <a href="./personalInfo.html" target="" class="" >Personal Info</a>
+ 
+<div class="BoxSizzing"></div>
+<img src="./assets/user.jpg" class="imageBoxSizzing">
+
+
+
     <pre>
     Atrributes - provite extra information about elements 
     metaData
@@ -15,8 +63,6 @@ www  world wide web
     inline   element                block element 
     span, i, b,                        div,marquee, p, layout elements, heading tags
     
-
-
 
 
 
@@ -37,7 +83,7 @@ footer
 <marquee>Sale sale sale </marquee>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque earum facilis sed, iusto magnam temporibus laudantium, sunt accusamus hic ipsum quam illum minus odio voluptate nemo tempora? Corrupti, aliquam ut!</p>
 
-<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex tempora esse dicta harum mollitia officiis itaque aliquid tempore vel velit.</div>
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Ex tempora esse dicta harum mollitia officiis itaque aliquid tempore vel velit.</div>
 
 <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
 <i>Lorem ipsum dolor sit amet consectetur adipisicing.</i>
@@ -53,11 +99,20 @@ footer
 
 <pre>
     Cascading style sheet 
-    1 inline CSS 
+    1 inline CSS   added by style tag in perticular element
     2 Internal CSS  added by style tag in head and only one time
     3 External CSS 
 
 
 </pre>
+<hr />
+<img src="./assets/naturalLOGO.jpg" alt="ha message desplay hoil" width="500" height="500"/>
+
+<img src="./assets/naturalLOGO.jpg" alt="ha message desplay hoil" style="width: 100%; height: 300px;"/>
+
+<img src="./assets/naturalLOGO.jpg" alt="naturalLOGO" class="logoImage"/>
+
+
+
 </body>
 </html>
